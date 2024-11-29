@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Graphik-Medium";
+  src: url("../fonts/Graphik-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("../fonts/Graphik-Regular.woff");
+}
+
+@font-face {
+  font-family: "Thein";
+  src: url("../fonts/Theinhardt-Lt.woff");
+}
+
+@font-face {
+  font-family: "Tiempo";
+  src: url("../fonts/TiemposHeadline-Semibold.woff");
+}
+
+:root {
+  --basic-col: #2b2c2e;
+  --nav-btn: #3d3e41;
+  --light-gray: #9fa2a7;
+  --space-l-r: 0 5vw;
+}
+
+a {
+  text-decoration: none;
+  color: var(--basic-col);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  color: var(--basic-col);
+}
+
+.h2_main {
+  font-size: 3rem;
+  font-weight: lighter;
+  font-family: "Regular";
+}
+
+h3 {
+  font-size: 5rem;
+}
+
+
+.p_main {
+  font-size: 2rem;
+}
+
+.gray {
+  color: var(--light-gray);
+}
+
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+  font-family: "Graphik-Medium";
+}
+
+img {
+  width: 100%;
+}
+
+/* # header */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--space-l-r);
+  margin-top: 17px;
+  margin-bottom: 100px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20%;
+}
+
+.hero-btn {
+  color: black;
+  border: 1px solid var(--nav-btn);
+  border-radius: 2px;
+  font-size: 1.7rem;
+  background-color: white;
+  padding: 5px 25px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #444749;
+  color: white;
+  transition: 0.2s ease;
+}
+
+/* #Main Section 1 */
+
+section {
+  margin-bottom: 100px;
+}
+
+.h2_first {
+  text-align: center;
+}
+
+.first-sec-text {
+  display: flex;
+  width: 70%;
+  margin: var(--space-l-r);
+  gap: 10%;
+  margin-bottom: 150px;
+}
+
+
+.first-P {
+  font-size: 2.1rem;
+  color: var(--basic-col);
+  font-family: "Regular";
+  line-height: 3rem;
+}
+
+.first-sec-text div p {
+  color: var(--light-gray);
+}
+
+.sec-sec {
+  display: flex;
+  position: relative;
+}
+
+
+.sec-sec img {
+  position: absolute;
+  width: 50%;
+}
+
+.sec-sec-text {
+  z-index: 1;
+
+  margin-left: 48%;
+}
+
+.sec-sec-text h3 {
+  margin-bottom: 60px;
+}
+
+.sec-sec-text h2 {
+  margin-bottom: 20px;
+}
