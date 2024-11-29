@@ -23,6 +23,7 @@
   --nav-btn: #3d3e41;
   --light-gray: #9fa2a7;
   --space-l-r: 0 5vw;
+  --bg-gray: #F1F1F4;
 }
 
 a {
@@ -58,6 +59,7 @@ h3 {
 
 .gray {
   color: var(--light-gray);
+  line-height: 3rem;
 }
 
 
@@ -87,12 +89,13 @@ img {
 }
 
 .hero-btn {
-  color: black;
+  color: var(--light-gray);
   border: 1px solid var(--nav-btn);
   border-radius: 2px;
   font-size: 1.7rem;
   background-color: white;
-  padding: 5px 25px;
+  width: 18rem;
+  height: 3rem;
   cursor: pointer;
 }
 
@@ -135,6 +138,7 @@ section {
 .sec-sec {
   display: flex;
   position: relative;
+  margin: var(--space-l-r);
 }
 
 
@@ -155,4 +159,17 @@ section {
 
 .sec-sec-text h2 {
   margin-bottom: 20px;
+}
+
+/* #How It Works */
+
+.howitworks {
+  display: flex;
+  background-color: var(--bg-gray);
+  justify-content: space-between;
+
+}
+
+.hiw {
+  width: 50px;
 }
